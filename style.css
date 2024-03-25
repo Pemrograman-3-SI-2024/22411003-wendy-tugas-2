@@ -262,6 +262,12 @@ tbody {
   position: relative;
   color: white;
 }
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .card1{
   width: 245px;
   height: 400px;
